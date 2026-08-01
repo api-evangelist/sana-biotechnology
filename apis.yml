@@ -1,8 +1,25 @@
 aid: sana-biotechnology
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sana-biotechnology.png
 name: Sana Biotechnology *
-description: 'Sana Biotechnology * is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Sana Biotechnology is a clinical-stage biotechnology company (NASDAQ:
+  SANA) focused on engineering cells as medicines. Its platforms repair or control
+  genes inside cells and replace missing or damaged cells to address the underlying
+  causes of disease, with drug candidates spanning type 1 diabetes, B-cell cancers,
+  and B-cell-mediated autoimmune disorders. Surfaced as a portfolio company of gv
+  and added to the API Evangelist network for enrichment. As of this enrichment pass
+  Sana publishes no public API, developer portal, or technical documentation; this
+  profile captures company identity and domain-security posture only.'
 url: https://raw.githubusercontent.com/api-evangelist/sana-biotechnology/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Cell Therapy
+- Gene Therapy
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +45,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://sana.com
+  url: https://sana.com
+- type: PrivacyPolicy
+  url: https://sana.com/privacy-policy/
+- type: TermsOfService
+  url: https://sana.com/terms-of-use/
+- type: Support
+  url: https://sana.com/contact/
+- type: DomainSecurity
+  url: security/sana-biotechnology-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
